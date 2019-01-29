@@ -46,7 +46,7 @@ BUILD FAILED in 5s
 
 To see the full stacktrace, use the --stacktrace error
 
-./gradlew jar
+./gradlew jar --stacktrace
 
 * Exception is:
 org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':thirdparty.keycloak:jar'.
