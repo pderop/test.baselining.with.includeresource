@@ -1,0 +1,25 @@
+-sub: *.bnd
+
+-buildpath: \
+	org.jboss.resteasy:resteasy-client;version=3.6.1.Final,\
+	org.jboss.logging.jboss-logging;version=3.3.0.Final,\
+	org.apache.httpcomponents:httpclient;version=4.5.3,\
+	org.apache.httpcomponents:httpcore;version=4.4.7,\
+	commons-logging:commons-logging;version=1.2,\
+	commons-codec:commons-codec;version=1.11,\
+	org.jboss.resteasy:resteasy-jaxrs;version=3.6.1.Final,\
+	org.reactivestreams:reactive-streams;version=1.0.2,\
+	javax.validation.api;version=1.1.0.Final,\
+	commons-io:commons-io;version=2.5,\
+	net.jcip:jcip-annotations;version=1.0,\
+	javax.json.bind:javax.json.bind-api;version=1.0,\
+	javax.json:javax.json-api;version=1.1.4,\
+	javax.ws.rs-api;version=2.1,\
+	org.keycloak:keycloak-admin-client;version=4.8.3.Final,\
+	org.keycloak.keycloak-core;version=4.8.3.Final,\
+	org.keycloak.keycloak-common;version=4.8.3.Final,\
+	org.bouncycastle:bcprov-jdk15on;version=1.60,\
+	org.bouncycastle:bcpkix-jdk15on;version=1.60,\
+	org.jboss.resteasy:resteasy-jackson2-provider;version=3.1.0.Final
+
+

@@ -1,0 +1,41 @@
+-includeresource:\
+ resteasy-client-3.6.1.Final.jar;lib:=true,\
+ jboss-logging-3.3.0.Final.jar;lib:=true,\
+ httpclient-4.5.3.jar;lib:=true,\
+ httpcore-4.4.8.jar;lib:=true,\
+ commons-logging-1.2.jar;lib:=true,\
+ commons-codec-1.11.jar;lib:=true,\
+ resteasy-jaxrs-3.6.1.Final.jar;lib:=true,\
+ reactive-streams-1.0.2.jar;lib:=true,\
+ validation-api-1.1.0.Final.jar;lib:=true,\
+ commons-io-2.5.jar;lib:=true,\
+ jcip-annotations-1.0.jar;lib:=true,\
+ javax.json.bind-api-1.0.jar;lib:=true,\
+ javax.json-api-1.1.4.jar;lib:=true,\
+ keycloak-admin-client-4.8.3.Final.jar;lib:=true,\
+ javax.ws.rs-api-2.1.jar;lib:=true,\
+ keycloak-core-4.8.3.Final.jar;lib:=true,\
+ keycloak-common-4.8.3.Final.jar;lib:=true,\
+ bcprov-jdk15on-1.60.jar;lib:=true,\
+ bcpkix-jdk15on-1.60.jar;lib:=true,\
+ resteasy-jackson2-provider-3.1.0.Final.jar;lib:=true
+ 
+Bundle-Name: Keycloak Admin Client
+
+Bundle-Version: 1.0.0
+
+Import-Package: \
+  *;resolution:=optional
+
+keycloak.ver: 4.8.3.Final
+
+Export-Package = \
+  org.keycloak.admin.client;version=${keycloak.ver},\
+  org.keycloak.admin.client.resource;version=${keycloak.ver},\
+  org.keycloak.admin.client.token;version=${keycloak.ver},\
+  org.keycloak.representations.idm;version=${keycloak.ver};
+
+-noee: true
+javac.source: 1.8
+javac.target: 1.8
+
